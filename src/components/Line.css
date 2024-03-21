@@ -11,7 +11,7 @@
   margin: auto;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 720px) {
   .emojiLine {
     width: 80%;
   }
