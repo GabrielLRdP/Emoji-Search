@@ -25,8 +25,10 @@ function App() {
   });
   return (
     <>
-      <Search onDataChange={handleChildState} />
-      <div className="results">{lineTab}</div>
+      <div className="container">
+        <Search onDataChange={handleChildState} />
+        <div className="results">{lineTab}</div>
+      </div>
     </>
   );
 }
